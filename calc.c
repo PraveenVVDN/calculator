@@ -26,6 +26,11 @@ void main()
 		result=subtraction(a,b);
 		Printthis(result);
 	}
+	if(op=='*')
+	{
+		result=multiplication(a,b);
+		Printthis(result);
+	}
 }
 
 int addition(int a,int b)
@@ -35,6 +40,10 @@ int addition(int a,int b)
 int subtraction(int a,int b)
 	{
 		return a-b;
+	}
+int multiplication(int a,int b)
+	{
+		return a*b;
 	}
 void Printthis(int)
 	{
