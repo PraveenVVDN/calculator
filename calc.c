@@ -36,6 +36,11 @@ void main()
 		result=division(a,b);
 		Printthis(result);
 	}
+	if(op=='%')
+	{
+		result=modulo(a,b);
+		Printthis(result);
+	}
 }
 
 int addition(int a,int b)
@@ -53,6 +58,10 @@ int multiplication(int a,int b)
 int division(int a,int b)
 	{
 		return a/b;
+	}
+int modulo(int a,int b)
+	{
+		return a%b;
 	}
 void Printthis(int)
 	{
