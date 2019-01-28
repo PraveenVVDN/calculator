@@ -21,11 +21,20 @@ void main()
 		result=addition(a,b);
 		Printthis(result);
 	}
+	if(op=='-')
+	{
+		result=subtraction(a,b);
+		Printthis(result);
+	}
 }
 
 int addition(int a,int b)
 	{
 		return a+b;
+	}
+int subtraction(int a,int b)
+	{
+		return a-b;
 	}
 void Printthis(int)
 	{
