@@ -1,9 +1,10 @@
+//this is my file
 #include<stdio.h>
 #include<conio.h>
 #include<math.h>
 
 int addition(int,int);
-int subtraction(int,int);
+int subtyraction(int,int);
 int division(int,int);
 int multiplication(int,int);
 int modulo(int,int);
