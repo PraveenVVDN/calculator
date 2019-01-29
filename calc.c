@@ -1,4 +1,4 @@
-//this is my cloned file
+//this is my file
 #include<stdio.h>
 #include<conio.h>
 #include<math.h>
